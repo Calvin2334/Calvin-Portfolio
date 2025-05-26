@@ -51,6 +51,16 @@ section{
   margin-right: auto;
 }
 
+.barber-img,
+.shopping-img {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0.5rem auto 1rem;
+}
+
+
 #hero {
     background-color: #0077cc;
     color: white;
