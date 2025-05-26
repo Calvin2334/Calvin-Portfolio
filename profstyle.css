@@ -38,14 +38,19 @@ section{
     margin-bottom: 2rem;
 }
 
-.project img{
-    width: 100%;
-    max-width: 800px;
-    height: auto;
-    border-radius: 8px;
-    margin-top: 0.5rem;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+.project img {
+  width: 100%;
+  max-width: 600px;  /* Or 500px if you want smaller */
+  height: auto;
+  display: block;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  margin-right: auto;
 }
+
 #hero {
     background-color: #0077cc;
     color: white;
